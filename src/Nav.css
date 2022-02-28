@@ -1,0 +1,47 @@
+/** @format */
+
+.nav {
+  position: fixed;
+  top: 0;
+  padding: 30px;
+  width: 100%;
+  height: 30px;
+  z-index: 100;
+
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.home {
+  display: flex;
+  color: white;
+  font-size: 8px;
+  justify-content: space-between;
+}
+.nav__contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__black {
+  background-color: var(--gray);
+}
+
+.nav__logo {
+  position: fixed;
+  left: 0;
+  top: 15px;
+  width: 100px;
+  object-fit: contain;
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+.nav__avatar {
+  position: fixed;
+  right: 20px;
+  top: 15px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
