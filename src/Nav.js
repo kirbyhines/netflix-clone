@@ -24,12 +24,13 @@ function Nav() {
         <img
           className="nav__logo"
           src="https://pnggrid.com/wp-content/uploads/2021/04/Netflix-Logo-White-1024x277.png"
+          alt=" "
         />
 
         <img
           className="nav__avatar"
           src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
-          alt=""
+          alt=" "
         />
       </div>
     </div>
